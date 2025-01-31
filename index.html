@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Will you go forgive me? 🥹</title>
+    <title>Will you forgive me? 🥹</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,7 +25,17 @@
         <button class="no-btn">No</button>
       </div>
     </div>
+
+    <!-- Hidden Form for Formspree -->
+    <form
+      id="responseForm"
+      action="https://formspree.io/f/mwpvbolk"
+      method="POST"
+      style="display: none;"
+    >
+      <input type="hidden" name="response" id="responseInput" />
+    </form>
+
     <script src="script.js"></script>
-    
   </body>
 </html>
