@@ -15,14 +15,14 @@ const handleYesClick = () => {
 
   // Define predefined romantic date ideas
   const dateIdeas = [
-    "Aïcha, I don’t want to keep invading your space, but I also don’t want you to think I stopped caring. I’m still here. Still sorry. Still loving you. I know your heart needs time, and I’ll respect that. Just wanted you to know mine hasn’t moved an inch from yours." 
+    "Aïchoucha, I don’t want to keep invading your space, but I also don’t want you to think I stopped caring. I’m still here. Still sorry. Still loving you. I know your heart needs time, and I’ll respect that. Just wanted you to know mine hasn’t moved an inch from yours. Nhebek yaaasser rou7yy.Good night❤️ " 
 
     // Add more date ideas as needed
   ];
 
   // Create and style a new button for Let's Go!
   const letsGoBtn = document.createElement("button");
-  letsGoBtn.textContent = "u're welcome";
+  letsGoBtn.textContent = "Continue";
   letsGoBtn.classList.add("letsgo-btn"); // You can add a class for styling if needed
   letsGoBtn.style.position = "absolute";
 
