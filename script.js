@@ -4,7 +4,7 @@ const gif = qs(".gif");
 const [yesBtn, noBtn] = [".yes-btn", ".no-btn"].map(qs);
 
 const handleYesClick = () => {
-  question.innerHTML = "Yeahhhhhhhhhhh! good luck tomorrow!!";
+  question.innerHTML = "Thank you 🫶";
   gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
 
   // Remove the 'mouseover' event listener from noBtn
@@ -15,7 +15,7 @@ const handleYesClick = () => {
 
   // Define predefined romantic date ideas
   const dateIdeas = [
-    "This week was a disaster, mabghitoch ysali w nti ba9a m9el9a mni. I’m truly sorry for what I did. I know I crossed a line, hurt you, and broke your trust—something I never wanted to do. I acted thoughtlessly, and I deeply regret my actions. I know I don’t have the right to ask you for anything, but here I am, asking for your forgiveness." 
+    "Aïcha, I don’t want to keep invading your space, but I also don’t want you to think I stopped caring. I’m still here. Still sorry. Still loving you. I know your heart needs time, and I’ll respect that. Just wanted you to know mine hasn’t moved an inch from yours." 
 
     // Add more date ideas as needed
   ];
